@@ -46,19 +46,19 @@ body {
 }
 
 .form {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 477px;
     margin-top: 50px;
     margin-left: 30px;
 }
 
-.textareas {
+.form-inputs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.textarea1 {
+.form-input1 {
     flex: 1;
     margin-right: 10px;
     height: 35px;
@@ -67,7 +67,7 @@ body {
     border-radius: 5px;
 }
 
-.textarea2 {
+.form-input2 {
     flex: 1;
     margin-left: 10px;
     height: 35px;
@@ -76,7 +76,7 @@ body {
     border-radius: 5px;
 }
 
-.submit {
+.form-button {
     color: #fff;
     height: 40px;
     width: 100%;

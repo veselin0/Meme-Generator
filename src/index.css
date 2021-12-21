@@ -1,6 +1,41 @@
-body {
-  margin: 0;
-
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
 
+.header {
+    color: #fff;
+    /* border: 3px solid green; */
+    width: 550px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.troll {
+    width: 178.79px;
+    height: 26.22px;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.troll-ikon {
+    width: 24px;
+    height: 24px;
+}
+
+.troll-text {
+    width: 140px;
+    height: 24px;
+}
